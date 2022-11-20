@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<link rel="stylesheet" href="css/main.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Adaptive images</title>
+</head>
+<body>
+	<div class="wrapper">
+		<main class="main">
+			<div class="text-1">
+				<h1 class="text-1__title">В тексті</h1>
+				<div class="text-1__image-1">
+					<img src="images/Temp-1200x400.jpg" alt="image-1">
+					<div class="text-1__text">center, max-width: 100%</div>
+				</div>
+				<div class="text-1__value">
+					<p class="text-1__lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta rerum aut deserunt neque tempora iste voluptas voluptatum aperiam, ipsam eligendi ut perferendis architecto minus debitis est tempore non et? Ipsum.</p>
+					<p class="text-1__lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta rerum aut deserunt neque tempora iste voluptas voluptatum aperiam, ipsam eligendi ut perferendis architecto minus debitis est tempore non et? Ipsum.</p>
+					<p class="text-1__lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta rerum aut deserunt neque tempora iste voluptas voluptatum aperiam, ipsam eligendi ut perferendis architecto minus debitis est tempore non et? Ipsum.</p>
+				</div>
+				<div class="text-1__image-2">
+					<img src="images/Temp-800x600.jpg" alt="image-2">
+					<div class="text-1__text">center, max-width: 100%</div>
+				</div>
+				<div class="text-1__value">
+					<p class="text-1__lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta rerum aut deserunt neque tempora iste voluptas voluptatum aperiam, ipsam eligendi ut perferendis architecto minus debitis est tempore non et? Ipsum.</p>
+					<p class="text-1__lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta rerum aut deserunt neque tempora iste voluptas voluptatum aperiam, ipsam eligendi ut perferendis architecto minus debitis est tempore non et? Ipsum.</p>
+					<p class="text-1__lorem">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dicta rerum aut deserunt neque tempora iste voluptas voluptatum aperiam, ipsam eligendi ut perferendis architecto minus debitis est tempore non et? Ipsum.</p>
+				</div>
+			</div>
+			<div class="cards">
+				<h1 class="cards__title">В карточках (три колонки)</h1>
+				<div class="cards__row">
+					<div class="cards__card">
+						<div class="cards__image">
+							<img src="images/Temp-800x400.jpg" alt="image-1">
+							<div class="cards__object-position">center / cover</div>
+						</div>
+						<div class="cards__paragraf-box">
+							<p class="cards__lorem">
+								- <span class="title">object-fit:</span> - як в background <br>
+								- <span class="value">fill</span> - за замовчуванням (вжимає/ розширяє зображення, щоб вмістити його в задану ширину/ висоту)<br>
+								- <span class="value">contain</span> - повністю вмішає зображення не іскажає його (як scale) <br>
+								- <span class="value">none</span> - не будуть міняти справжні ширину і висоту, розмістяться центром до центру родителя <br>
+								- <span class="value">cover</span> - максимально розтягнуться/ звузяться по ширині/ висоті щоб заповнити весь блок, відцентуються <br>
+								- <span class="title">object-position:</span> - як в background <br>
+								- center | 0 0 | 50% 0 | top right <br>
+								- розташування зображення в родителі <br>
+							</p>
+						</div>
+					</div>
+					<div class="cards__card">
+						<div class="cards__image cards__image_fit-none">
+							<img src="images/Temp-400x600.jpg" alt="image-1">
+							<div class="cards__object-position">center / none</div>
+						</div>
+						<div class="cards__paragraf-box">
+							<p class="cards__lorem">
+								- <span class="title">object-fit:</span> - як в background <br>
+								- <span class="value">fill</span> - за замовчуванням (вжимає/ розширяє зображення, щоб вмістити його в задану ширину/ висоту)<br>
+								- <span class="value">contain</span> - повністю вмішає зображення не іскажає його (як scale) <br>
+								- <span class="value">none</span> - не будуть міняти справжні ширину і висоту, розмістяться центром до центру родителя <br>
+								- <span class="value">cover</span> - максимально розтягнуться/ звузяться по ширині/ висоті щоб заповнити весь блок, відцентуються <br>
+								- <span class="title">object-position:</span> - як в background <br>
+								- center | 0 0 | 50% 0 | top right <br>
+								- розташування зображення в родителі <br>
+							</p>
+						</div>
+					</div>
+					<div class="cards__card">
+						<div class="cards__image cards__image_position">
+							<img src="images/Temp-1300x200.jpg" alt="image-1">
+							<div class="cards__object-position">top right / cover</div>
+						</div>
+						<div class="cards__paragraf-box">
+							<p class="cards__lorem">
+								- <span class="title">object-fit:</span> - як в background <br>
+								- <span class="value">fill</span> - за замовчуванням (вжимає/ розширяє зображення, щоб вмістити його в задану ширину/ висоту)<br>
+								- <span class="value">contain</span> - повністю вмішає зображення не іскажає його (як scale) <br>
+								- <span class="value">none</span> - не будуть міняти справжні ширину і висоту, розмістяться центром до центру родителя <br>
+								- <span class="value">cover</span> - максимально розтягнуться/ звузяться по ширині/ висоті щоб заповнити весь блок, відцентуються <br>
+								- <span class="title">object-position:</span> - як в background <br>
+								- center | 0 0 | 50% 0 | top right <br>
+								- розташування зображення в родителі <br>
+							</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="column">
+				<div class="column__header">В карточках (в ряд)</div>
+				<div class="column__content">
+					<div class="column__card">
+						<div class="column__row">
+							<div class="column__image">
+								<img src="images/Temp-1300x200.jpg" alt="image">
+							</div>
+							<div class="column__text">
+								<div class="column__title">Заголовок</div>
+								<div class="column__paragraf">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti omnis soluta quis sunt praesentium ex corporis nulla nam dicta! Tenetur atque optio voluptatem omnis soluta aperiam minima quibusdam similique officiis?</div>
+							</div>
+						</div>
+					</div>
+					<div class="column__card">
+						<div class="column__row">
+							<div class="column__image">
+								<img src="images/Temp-400x600.jpg" alt="image">
+							</div>
+							<div class="column__text">
+								<div class="column__title">Заголовок</div>
+								<div class="column__paragraf">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti omnis soluta quis sunt praesentium ex corporis nulla nam dicta! Tenetur atque optio voluptatem omnis soluta aperiam minima quibusdam similique officiis?</div>
+							</div>
+						</div>
+					</div>
+					<div class="column__card">
+						<div class="column__row">
+							<div class="column__image">
+								<img src="images/Temp-800x400.jpg" alt="image">
+							</div>
+							<div class="column__text">
+								<div class="column__title">Заголовок</div>
+								<div class="column__paragraf">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Corrupti omnis soluta quis sunt praesentium ex corporis nulla nam dicta! Tenetur atque optio voluptatem omnis soluta aperiam minima quibusdam similique officiis?</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="construction">
+				<div class="construction__header">Конструкція picture & source <br> зображження можуть мінятися при звуженні/розширенні екрану</div>
+				<picture class="construction__picture">
+					<source srcset="images/Temp-1200x400.jpg" type="image/jpg" media="(min-width:1330px)" class="construction__cource">
+					<source srcset="images/Temp-800x600.jpg" type="image/jpg" media="(min-width:800px)" class="construction__cource">
+					<source srcset="images/Temp-400x600.jpg" type="image/jpg" media="(max-width:800px)" class="construction__cource">
+					<img src="images/Temp-1200x200.jpg" alt="iamge">
+				</picture>
+			</div>
+		</main>
+	</div>
+</body>
+</html>
